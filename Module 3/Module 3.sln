@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EigenTypes", "EigenTypes\EigenTypes.csproj", "{5B0BA940-8B2F-4247-95B0-B51A9D83AC32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EigenTypes", "EigenTypes\EigenTypes.csproj", "{5B0BA940-8B2F-4247-95B0-B51A9D83AC32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LampenFabriek", "LampenFabriek\LampenFabriek.csproj", "{11083866-3457-495D-930C-0741E090525E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LampenFabriek", "LampenFabriek\LampenFabriek.csproj", "{11083866-3457-495D-930C-0741E090525E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Overerven", "Overerven\Overerven.csproj", "{346F8F75-3286-44A2-A4D9-61DB0519D298}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{11083866-3457-495D-930C-0741E090525E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11083866-3457-495D-930C-0741E090525E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11083866-3457-495D-930C-0741E090525E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{346F8F75-3286-44A2-A4D9-61DB0519D298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{346F8F75-3286-44A2-A4D9-61DB0519D298}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{346F8F75-3286-44A2-A4D9-61DB0519D298}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{346F8F75-3286-44A2-A4D9-61DB0519D298}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

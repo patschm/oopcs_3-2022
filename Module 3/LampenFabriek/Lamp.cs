@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LampenFabriek
 {
-    public class Lamp
+    public abstract class Lamp
     {
         // Eigenschappen sla je op in fields
         private int intensiteit = 400;
@@ -44,11 +44,11 @@ namespace LampenFabriek
         //}
 
         // Gedrag. Leg je vast in functions of procedures (Methods)
-        public void Aan()
-        {
-            Console.BackgroundColor = Kleur;
-            Console.WriteLine($"De lamp brandt met {Lumen} lumen");
-        }
+        public abstract void Aan();
+        //{
+        //    Console.BackgroundColor = Kleur;
+        //    Console.WriteLine($"De lamp brandt met {Lumen} lumen");
+        //}
         public void Uit()
         {
             Console.WriteLine("De lamp gaat uit");
