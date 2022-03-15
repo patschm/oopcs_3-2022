@@ -3,7 +3,7 @@
 
 namespace Overerven
 {
-    public class TL : Lamp
+    public  class TL : Lamp
     {
         public int StartCount { get; set; } = 3;
    
