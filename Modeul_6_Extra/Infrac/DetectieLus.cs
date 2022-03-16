@@ -5,6 +5,7 @@ namespace Infrac
     public class DetectieLus
     {
         private IDetector[] devices = new IDetector[10];
+        public event Detector Detecting;
 
         public void Connect(IDetector device)
         {
@@ -20,6 +21,8 @@ namespace Infrac
         public void Detect()
         {
             Console.WriteLine("De detectielus ziet pissed students");
+            Detecting?.Invoke();
+
             foreach(IDetector device in devices)
             {
                 device?.Activate();
