@@ -7,6 +7,13 @@
             foreach(int i in GetNumbers())
             {
                 Console.WriteLine(i);
+                break;
+            }
+
+            foreach (int i in GetNumbers())
+            {
+                Console.WriteLine(i);
+            
             }
 
             try
@@ -29,11 +36,17 @@
 
         static IEnumerable<int> GetNumbers()
         {
-            yield return 1;
-            Console.WriteLine("een");
-            yield return 2;
-            Console.WriteLine("twee");
-            yield return 3;
+            try
+            {
+                yield return 1;
+                Console.WriteLine("een");
+                yield return 2;
+                Console.WriteLine("twee");
+                yield return 3;
+            }
+            finally {
+                Console.WriteLine("Tenslotte");
+                    }
         }
 
         private static int GetNumber()
